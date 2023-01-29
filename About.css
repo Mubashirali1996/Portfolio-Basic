@@ -24,8 +24,16 @@ ul {
     overflow: hidden;
     background-color: rgb(107, 105, 105);
   }
-li { display: inline; float: right; margin: 8px; 
+.nav { display: inline; float: right; margin: 8px; 
  }
- p { color: white; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style: italic;
+
+ p { color: rgb(199, 162, 162);
     font-size: large; text-align: justify;
+ }
+
+ ol { color: antiquewhite; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+ }
+ h4 { color: aliceblue; font-weight: bolder; font-style: oblique; text-decoration: underline;
+
  }
