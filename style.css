@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(89,88,84); font-family: Inter,sans-serif;
+}
+header { background-color: black; margin: 8px; padding: 8px;
+
+}
+h1 { color: white; text-align: center; display: block;
+}
+
+h2 {color: rgb(255, 255, 255); font-family: monospace;
+}
+
+a { color: azure; text-decoration: none; 
+
+}
+a:hover{
+    color: rgb(20, 19, 20);
+  }
+
+ul {
+    list-style-type: none;
+    margin: 8px;
+    padding: 12px;
+    overflow: hidden;
+    background-color: rgb(107, 105, 105);
+  }
+li { display: inline; float: right; margin: 8px; 
+ }
+
+ img{ float: right;
+
+ }
+ p { font-weight: bold; color: white; font-size: x-large; 
+ }
+
+ 
