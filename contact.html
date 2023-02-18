@@ -1,20 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./contact.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="./CSS/contact.css">
 </head>
+
 <body>
-    <header> <h1>My Portfolio</h1></header>
-   <nav>
-    <ul>
-       <li> <a href="./index.html" target="_blank">Home</a> </li>
-       <li> <a href="./About.html" target="_blank">Skills</a> </li>
-       <li> <a href="./contact.html" target="_blank">Contact Us</a> </li>
-     </ul>
-    </nav>
+  <div class="container">
+    <div class="sidebar">
+      <nav>
+        <ul>
+          <li> <a href="./index.html">Home</a> </li>
+          <li> <a href="intro.html">My Intro</a> </li>
+          <li> <a href="services.html">Services</a> </li>
+          <li><a href="blog.html">Blog</a> </li>
+          <li> <a href="Contact.html">Contact me</a> </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="main">
+      <div class="contactform">
+        <h1>Contact me for Work / General Enquiries</h1>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="name" class="form-control" id="name" aria-describedby="name">
+          </div>
+          <div class="mb-3">
+            <label for="clientemail" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="clientphone" class="form-label">Phone</label>
+            <input type="Phone" class="form-control" id="clientphone">
+          </div>
+          <div class="mb-3">
+            <label for="Enquiry" class="form-label">Enquiry</label>
+            <input type="name" class="form-control" id="Enquiry" aria-describedby="Enquiry">
+          </div>
+          <div class="mb-3" id="form-check">
+            <input type="checkbox" class="form-check-input" id="isclient">
+            <label class="form-check-label" for="isclient">Let's work together on a awsome Projects</label>
+          </div>
+          <button class="buttons">Submit</button>
+        </form>
+      </div>
+      <h4>Follow me on Social Media</h4>
+      <div class="Socialmedia">
+        <a href="https://www.facebook.com"><img class="Mediaitem" src="./Images/fb logo.png" alt="Facebook"></a>
+        <a href="https://www.whatsapp.com"><img class="Mediaitem" src="./Images/WA.webp" alt="whatsapp"></a>
+        <a href="mailto:mubashirali.link@gmail.com"><img class="Mediaitem" id="email"src="./Images/email.jpg" alt="Email"></a>
+        <a href="https://www.linkedin.com/in/mubashir-ali-283020166"><img class="Mediaitem" src="./Images/linkedin.png"
+            alt="Linedin"></a>
+      </div>
+    </div> i
+
+
 </body>
+
 </html>
